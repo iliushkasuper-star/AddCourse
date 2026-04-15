@@ -16,7 +16,6 @@ const AddCourseModal = ({ isOpen, onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Данные курса отправлены в JSON:', formData);
-    // Здесь будет логика сохранения (например, POST запрос)
     onClose();
   };
 
