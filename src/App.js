@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import AddCourseModal from './components/AddCourse'; // путь к твоему файлу
+import AddCourseModal from './components/AddCourse'; 
 
 function App() {
-  // Состояние: false - закрыто, true - открыто
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App" style={{ padding: '20px', textAlign: 'center' }}>
       
-      {/* Кнопка, которая открывает форму */}
+      
       <button 
         onClick={openModal}
         style={{
@@ -26,7 +25,6 @@ function App() {
         Add New Course
       </button>
 
-      {/* Вызов компонента модалки */}
       <AddCourseModal 
         isOpen={isModalOpen} 
         onClose={closeModal} 
