@@ -101,7 +101,7 @@ margin-right: 84%;
   opacity: 0.9;
 }
 .ColorSelect {
-  color: #ccc; /* Основной цвет текста выбранного пункта */
+  color: #ccc; 
   background-color: white;
   border: 1px solid #7b61ff;
   border-radius: 10px;
@@ -109,7 +109,7 @@ margin-right: 84%;
   width: 100%;
 }
 
-/* Стилизация текста, когда выбрано пустое значение (имитация placeholder) */
+
 .ColorSelect:invalid,
 .ColorSelect[value=""] {
   color: #ccc;
